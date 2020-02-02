@@ -1,0 +1,45 @@
+{
+  "packages": [
+    {
+      "name": "GEPNode",
+      "maintainer": "GEPLabs",
+      "websiteURL": "https://geplabs.com",
+      "email": "info@geplabs.com",
+      "help": {
+        "online": "https://geplabs.com"
+      },
+      "platforms": [
+        {
+          "name": "GEPNodes",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "http://geplabs.com"
+          },
+          "url": "https://geplabs.com/core/geplabs-1.0.0.zip",
+          "archiveFileName": "geplabs-1.0.0.zip",
+          "checksum": "SHA-256:5F3E2B0F7AB69538AD965EE0B4F9B1550F335ED77BA2A6224F64B28271AD6C68",
+          "size": "43221",
+          "boards": [
+            {"name": "GEPNode 328 / GEPNode USB"},
+            {"name": "BoxNode 328"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
